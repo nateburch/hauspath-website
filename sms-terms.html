@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS Terms — HausPath</title>
+  <meta name="description" content="HausPath SMS and Text Messaging Terms — your rights and our obligations regarding text message communications.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="index.html"><img src="assets/logo.png" alt="HausPath" class="nav-logo"></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="nav-cta">Request Access</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="legal-page">
+    <div class="container">
+      <h1>SMS / Text Messaging Terms</h1>
+      <p class="legal-meta">Last updated: March 23, 2026</p>
+
+      <p>These SMS Terms describe the text messaging services provided by HausPath, LLC ("HausPath") and apply to all users who opt in to receive text messages from HausPath.</p>
+
+      <h2>1. Consent</h2>
+      <p>By providing your mobile phone number and opting in through your HausPath account settings, you consent to receive automated text messages from HausPath. These messages are related to your account activity and platform notifications — they are not marketing or promotional messages.</p>
+      <p><strong>Your consent to receive text messages is not a condition of purchasing or using HausPath.</strong></p>
+
+      <h2>2. Types of Messages</h2>
+      <p>HausPath may send you the following types of text messages:</p>
+      <ul>
+        <li><strong>Activity alerts</strong> — Notifications about high-priority activities detected in your workflow</li>
+        <li><strong>Appointment reminders</strong> — Reminders for upcoming scheduled events</li>
+        <li><strong>Status updates</strong> — Changes to items you are tracking</li>
+        <li><strong>Follow-up reminders</strong> — Reminders about pending items that require your attention</li>
+        <li><strong>Account notifications</strong> — Security alerts, login verification, and account-related messages</li>
+      </ul>
+
+      <h2>3. Message Frequency</h2>
+      <p>Message frequency varies based on your account activity, notification preferences, and the number of active items in your workflow. You can customize which types of notifications generate text messages in your account settings.</p>
+
+      <h2>4. Costs</h2>
+      <p>HausPath does not charge for text messages, but <strong>message and data rates may apply</strong> depending on your mobile carrier and plan. Contact your carrier for details about your messaging plan.</p>
+
+      <h2>5. Opting Out</h2>
+      <p>You may opt out of receiving text messages from HausPath at any time by:</p>
+      <ul>
+        <li>Replying <strong>STOP</strong> to any text message from HausPath</li>
+        <li>Updating your notification preferences in your HausPath account settings</li>
+        <li>Contacting us at <a href="mailto:support@hauspath.com">support@hauspath.com</a></li>
+      </ul>
+      <p>After opting out, you will receive a single confirmation message. No further text messages will be sent unless you re-opt in.</p>
+
+      <h2>6. Getting Help</h2>
+      <p>For assistance with text messaging, you may:</p>
+      <ul>
+        <li>Reply <strong>HELP</strong> to any text message from HausPath</li>
+        <li>Email <a href="mailto:support@hauspath.com">support@hauspath.com</a></li>
+      </ul>
+
+      <h2>7. Carrier Disclaimer</h2>
+      <p>Mobile carriers (including but not limited to AT&T, T-Mobile, Verizon, and others) are not liable for delayed or undelivered messages. Message delivery is subject to effective transmission by your carrier and device compatibility.</p>
+
+      <h2>8. Privacy</h2>
+      <p>Your phone number and messaging data are handled in accordance with our <a href="privacy.html">Privacy Policy</a>. We do not sell, share, or rent your phone number to third parties for marketing purposes.</p>
+
+      <h2>9. Changes to These Terms</h2>
+      <p>We may update these SMS Terms from time to time. Changes will be posted on this page with an updated date. Continued receipt of text messages after changes constitutes acceptance of the revised terms.</p>
+
+      <h2>10. Contact</h2>
+      <p>Questions about our text messaging program? Contact us:</p>
+      <p>
+        HausPath, LLC<br>
+        Email: <a href="mailto:support@hauspath.com">support@hauspath.com</a><br>
+        Web: <a href="contact.html">hauspath.com/contact</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="index.html"><img src="assets/logo.png" alt="HausPath" class="footer-logo"></a>
+        <ul class="footer-links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="sms-terms.html">SMS Terms</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="footer-copy">&copy; 2026 HausPath, LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 10));
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+  </script>
+</body>
+</html>
