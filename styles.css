@@ -418,6 +418,46 @@ section {
   font-size: 0.9375rem;
 }
 
+/* --- Results Section --- */
+.results-section {
+  background: var(--gray-50);
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin-top: 3.5rem;
+}
+
+.result-card {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  background: var(--white);
+  border-radius: 16px;
+  border: 1px solid var(--gray-200);
+}
+
+.result-number {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+
+.result-card p {
+  font-size: 0.9375rem;
+  color: var(--gray-600);
+}
+
+@media (max-width: 768px) {
+  .results-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
 /* --- CTA Section --- */
 .cta-section {
   background: var(--navy);
